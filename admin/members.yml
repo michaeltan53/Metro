@@ -1,0 +1,11 @@
+# List the membership of this group.  (Remove entries if you have fewer
+# than three members.)
+#
+
+members:
+  - name: Karly Winkler
+    uid: u5102140
+  - name: Bowen Tan
+    uid: u6822656
+  - name: Hongbin Wu
+    uid: u6877955

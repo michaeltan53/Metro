@@ -1,0 +1,34 @@
+
+Skeleton of game plan:
+
+Game factors:
+
+numberOfPlayers   -   Player   (object)  - set starting stations - final
+
+scoring = count of path tiles
+
+GUI (javaFX display)
+
+
+
+
+
+
+                           Board   - ; isValidPlace, isdoublePlace, updateBoard
+   Player              （array of tuples)     (int) (int)         （array of tuples)
+     - finalScore             |
+     - takeTurn (method)   Location                  |
+        |                     - row, column          |
+  (32) trains                 - getLocation         Tile    - getNewTile, getEdges/setEdges?, isOvermuchTile, orientation
+       （int）                                    (string)
+     - owner (field)
+     - return finalPath (int)
+            |                       |
+            \                       |
+               Path  - doEdgesAlign, isScoreValid, pathCount
+  （array of tuples)                        (int)
+
+
+   - return count
+   to owner on path completion
+
